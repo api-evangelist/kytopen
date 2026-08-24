@@ -1,0 +1,48 @@
+generated: '2026-08-23'
+method: probed
+source: live HTTPS probes of https://www.kytopen.com/.well-known/* (apex kytopen.com 301s to www)
+note: >-
+  Every /.well-known/ path probed returned 404 from the HubSpot CMS that serves www.kytopen.com.
+  No WellKnown or SecurityTxt pointer is emitted in apis.yml because no path returned a document -
+  this file records a measured absence, not a served surface.
+hosts:
+- host: www.kytopen.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+  - path: /.well-known/mcp.json
+    status: 404
+    file: null
+- host: kytopen.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 301
+    file: null
+  - path: /.well-known/api-catalog
+    status: 301
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 301
+    file: null

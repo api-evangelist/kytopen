@@ -1,0 +1,54 @@
+# Kytopen
+
+> Kytopen Corp. is an MIT-spinout life-sciences instrument company in Cambridge, Massachusetts
+> building non-viral, continuous-flow cellular engineering hardware for cell and gene therapy.
+> Its Flowfect technology combines continuous fluid flow with electric fields to deliver mRNA,
+> DNA and CRISPR payloads into cells. Kytopen sells laboratory instruments and consumables.
+> It publishes no public API, no developer portal, and no machine-readable API contract.
+
+Generated: 2026-08-23
+Method: generated (from apis.yml and this repository's probe artifacts; no provider-published
+llms.txt exists - https://www.kytopen.com/llms.txt returned 404 on 2026-08-23)
+Source: https://www.kytopen.com/
+
+## API surface
+
+There is none. As of 2026-08-23 an agent cannot call Kytopen programmatically. Contract discovery
+probed https://www.kytopen.com for /openapi.json, /openapi.yaml, /swagger.json, /v1/openapi.json,
+/api-docs, /docs, /redoc and /graphql (all 404), every /.well-known/ discovery path including
+agent-card.json and agent.json (all 404), and DNS for api., app., developer., developers., docs.,
+portal., cloud., support., status. and trust..kytopen.com (all NXDOMAIN). The GitHub organization
+https://github.com/Kytopen exists but publishes zero public repositories. No first-party package
+exists on npm, PyPI or crates.io.
+
+## Instrument data integration (third party, not Kytopen's API)
+
+Flowfect instrument data integration is delivered by Ganymede Bio under Ganymede's own Lab-as-Code
+platform and its own contract. That API surface belongs to Ganymede, not to Kytopen, and is not
+attributed to Kytopen in this profile.
+
+- Ganymede Bio partnership announcement: https://blog.ganymede.bio/announcing-our-new-partnership-with-kytopen-cell-and-gene-therapy-instrument-integration-and-data/
+
+## Products
+
+- Flowfect TX Platform: closed-system transfection instrument, 10-50 million cells per mL at 25-50 mL per minute, for GMP-scale manufacturing: https://www.kytopen.com/products
+- Flowfect Discover Platform: automated small-volume liquid-handling platform, up to 96 high-throughput transfections in about ten minutes: https://www.kytopen.com/products
+
+## Company
+
+- Website: https://www.kytopen.com/
+- News: https://www.kytopen.com/news
+- Products: https://www.kytopen.com/products
+- Partners: https://www.kytopen.com/partners
+- Technology Access Program: https://www.kytopen.com/tap
+- Resources and brochures: https://www.kytopen.com/learn/brochures
+- Leadership: https://www.kytopen.com/leadership
+- Support (Jira Service Management customer portal): https://kytopen.atlassian.net/servicedesk/customer/portal/5
+- Request a quote: https://www.kytopen.com/quote
+- Contact: https://www.kytopen.com/contact-us
+- GitHub organization (no public repositories): https://github.com/Kytopen
+
+## Optional
+
+- Domain security probe (this repo): security/kytopen-domain-security.yml
+- Well-known probe record (this repo): well-known/kytopen-well-known.yml
