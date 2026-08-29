@@ -13,6 +13,17 @@ description: >-
   machine-readable API contract of any kind. Instrument data integration for Flowfect customers is
   delivered by a third party, Ganymede Bio, under its own platform and its own contract - that
   surface belongs to Ganymede, not to Kytopen.
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 image: https://www.kytopen.com/hs-fs/hubfs/raw_assets/public/Kytopen_December_2021/images/logo_300-1.png
 url: https://raw.githubusercontent.com/api-evangelist/kytopen/refs/heads/main/apis.yml
 x-type: company
